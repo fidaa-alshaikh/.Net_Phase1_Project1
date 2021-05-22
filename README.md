@@ -11,7 +11,7 @@ Rainbow School is creating a system to store, retrieve and update teacher data. 
 
 ### Class format:
 
-- The following fields will be stored for a teacher:
+The following fields will be stored for a teacher:
 
 - ID
 

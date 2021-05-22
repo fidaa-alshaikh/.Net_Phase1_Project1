@@ -1,0 +1,16 @@
+C:\Users\fedaa_1zoqddg\OneDrive\Desktop\.NET-COURSE\Projects\Project1_Phase1\.Net_Phase1_Project1\TeacherRecordsSystem\TeacherRecordsSystem\bin\Debug\net5.0\TeacherRecordsSystem.exe
+C:\Users\fedaa_1zoqddg\OneDrive\Desktop\.NET-COURSE\Projects\Project1_Phase1\.Net_Phase1_Project1\TeacherRecordsSystem\TeacherRecordsSystem\bin\Debug\net5.0\TeacherRecordsSystem.deps.json
+C:\Users\fedaa_1zoqddg\OneDrive\Desktop\.NET-COURSE\Projects\Project1_Phase1\.Net_Phase1_Project1\TeacherRecordsSystem\TeacherRecordsSystem\bin\Debug\net5.0\TeacherRecordsSystem.runtimeconfig.json
+C:\Users\fedaa_1zoqddg\OneDrive\Desktop\.NET-COURSE\Projects\Project1_Phase1\.Net_Phase1_Project1\TeacherRecordsSystem\TeacherRecordsSystem\bin\Debug\net5.0\TeacherRecordsSystem.runtimeconfig.dev.json
+C:\Users\fedaa_1zoqddg\OneDrive\Desktop\.NET-COURSE\Projects\Project1_Phase1\.Net_Phase1_Project1\TeacherRecordsSystem\TeacherRecordsSystem\bin\Debug\net5.0\TeacherRecordsSystem.dll
+C:\Users\fedaa_1zoqddg\OneDrive\Desktop\.NET-COURSE\Projects\Project1_Phase1\.Net_Phase1_Project1\TeacherRecordsSystem\TeacherRecordsSystem\bin\Debug\net5.0\ref\TeacherRecordsSystem.dll
+C:\Users\fedaa_1zoqddg\OneDrive\Desktop\.NET-COURSE\Projects\Project1_Phase1\.Net_Phase1_Project1\TeacherRecordsSystem\TeacherRecordsSystem\bin\Debug\net5.0\TeacherRecordsSystem.pdb
+C:\Users\fedaa_1zoqddg\OneDrive\Desktop\.NET-COURSE\Projects\Project1_Phase1\.Net_Phase1_Project1\TeacherRecordsSystem\TeacherRecordsSystem\obj\Debug\net5.0\TeacherRecordsSystem.csprojAssemblyReference.cache
+C:\Users\fedaa_1zoqddg\OneDrive\Desktop\.NET-COURSE\Projects\Project1_Phase1\.Net_Phase1_Project1\TeacherRecordsSystem\TeacherRecordsSystem\obj\Debug\net5.0\TeacherRecordsSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fedaa_1zoqddg\OneDrive\Desktop\.NET-COURSE\Projects\Project1_Phase1\.Net_Phase1_Project1\TeacherRecordsSystem\TeacherRecordsSystem\obj\Debug\net5.0\TeacherRecordsSystem.AssemblyInfoInputs.cache
+C:\Users\fedaa_1zoqddg\OneDrive\Desktop\.NET-COURSE\Projects\Project1_Phase1\.Net_Phase1_Project1\TeacherRecordsSystem\TeacherRecordsSystem\obj\Debug\net5.0\TeacherRecordsSystem.AssemblyInfo.cs
+C:\Users\fedaa_1zoqddg\OneDrive\Desktop\.NET-COURSE\Projects\Project1_Phase1\.Net_Phase1_Project1\TeacherRecordsSystem\TeacherRecordsSystem\obj\Debug\net5.0\TeacherRecordsSystem.csproj.CoreCompileInputs.cache
+C:\Users\fedaa_1zoqddg\OneDrive\Desktop\.NET-COURSE\Projects\Project1_Phase1\.Net_Phase1_Project1\TeacherRecordsSystem\TeacherRecordsSystem\obj\Debug\net5.0\TeacherRecordsSystem.dll
+C:\Users\fedaa_1zoqddg\OneDrive\Desktop\.NET-COURSE\Projects\Project1_Phase1\.Net_Phase1_Project1\TeacherRecordsSystem\TeacherRecordsSystem\obj\Debug\net5.0\ref\TeacherRecordsSystem.dll
+C:\Users\fedaa_1zoqddg\OneDrive\Desktop\.NET-COURSE\Projects\Project1_Phase1\.Net_Phase1_Project1\TeacherRecordsSystem\TeacherRecordsSystem\obj\Debug\net5.0\TeacherRecordsSystem.pdb
+C:\Users\fedaa_1zoqddg\OneDrive\Desktop\.NET-COURSE\Projects\Project1_Phase1\.Net_Phase1_Project1\TeacherRecordsSystem\TeacherRecordsSystem\obj\Debug\net5.0\TeacherRecordsSystem.genruntimeconfig.cache
