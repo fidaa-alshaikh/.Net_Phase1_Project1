@@ -23,6 +23,7 @@ namespace TeacherRecordsSystem
     {
         public static string fileLocation = "C:\\Users\\fedaa_1zoqddg\\OneDrive\\Desktop\\.NET-COURSE\\Projects\\Project1_Phase1\\.Net_Phase1_Project1\\TeachersRecord.txt";
         // Store Data Functions
+
         // Write data
         public static void WriteData()
         {
@@ -34,12 +35,14 @@ namespace TeacherRecordsSystem
             sw.Close();
             fs.Close();
         }
+
         // Append data
         public static void AppendData()
         {
+            // ##### will try to add try block to check the input !
             Console.Write("Please add teacher's ID:");
             int id = Convert.ToInt32(Console.ReadLine());
-            // will try to make id auto increament !
+            // ##### will try to make id auto increament !
             Console.Write("Please add teacher's Name:");
             string name = Console.ReadLine();
             Console.Write("Please add teacher's Class Number:");
@@ -57,12 +60,26 @@ namespace TeacherRecordsSystem
             fs.Close();
 
         }
+
+        //Read data function (Print Record)
+        public static void ReadData()
+        {
+            FileStream fs = new FileStream(fileLocation, FileMode.Open, FileAccess.Read);
+            StreamReader sr = new StreamReader(fs);
+            sr.BaseStream.Seek(0, SeekOrigin.Begin);
+            string str = sr.ReadLine();
+            while (str != null)
+            {
+                Console.WriteLine(str);
+                str = sr.ReadLine();
+            }
+        }
         static void Main(string[] args)
         {
-            //Teacher t1 = new Teacher(1, "Fidaa", 2, 20);
-           // Console.WriteLine("ID: {0}, Name: {1}, Class Number: {2}, Sec: {3}", t1.id, t1.name, t1.classNum, t1.section);
-            WriteData();
-            AppendData();
+            //### need switch case!
+            //WriteData();
+            //AppendData();
+            ReadData();
             Console.ReadKey();
         }
     }
