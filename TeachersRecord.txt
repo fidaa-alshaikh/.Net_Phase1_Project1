@@ -1,5 +1,4 @@
 Teachers Records
 ID 	 Name 	 Class 	 Section
-1 	 fidaa 	 2 	 3
-2 	 fif 	 2 	 2
-
+1 	 Fidaa 	 1 	 50
+2 	 Sami 	 1 	 3
