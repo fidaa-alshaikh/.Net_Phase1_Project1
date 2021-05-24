@@ -1,11 +1,5 @@
 Teachers Records
 ID 	 Name 	 Class 	 Section
-1 	 fidaa 	 2 	 50
-2 	 sami 	 2 	 3
-3 	 Nora 	 9 	 2
-4 	 e 	 2 	 1
-7 	 d 	 3 	 3
-9 	 f 	 3 	 3
-9 	 f 	 3 	 3
-10 	 fe 	 2 	 2
-7 	 d 	 2 	 2
+1 	 fidaa 	 2 	 3
+2 	 fif 	 2 	 2
+

@@ -72,8 +72,8 @@ namespace TeacherRecordsSystem
                 Console.WriteLine(str);
                 str = sr.ReadLine();
             }
-            fs.Close();
             sr.Close();
+            fs.Close();
         }
 
         // Update data function {NEED TO FIX}
@@ -81,6 +81,7 @@ namespace TeacherRecordsSystem
         {
          FileStream fs3 = new FileStream(fileLocation, FileMode.Open, FileAccess.Read);
          StreamReader sr3 = new StreamReader(fs3);
+
             Console.Write("Please add teacher's Name:");
             string name = Console.ReadLine();
             Console.Write("Please add teacher's Class Number:");
@@ -91,16 +92,18 @@ namespace TeacherRecordsSystem
             Teacher t1 = new Teacher(id, name, classNum, section);
             string updatedData = $"{t1.id} \t {t1.name} \t {t1.classNum} \t {t1.section}";
             string[] lines;
-            using ( fs3)
+
+            using (fs3)
             {
                 using (sr3)
                 {
-                     lines = File.ReadAllLines(fileLocation);
+                    lines = File.ReadAllLines(fileLocation);
 
                     for (int i = 2; i < lines.Length; i++)
                     {
                         string[] split = lines[i].Split(',');
                         foreach (var item in split)
+                           
                         {
                             if (Char.GetNumericValue(item[0]) == id)
                             {
@@ -115,19 +118,21 @@ namespace TeacherRecordsSystem
                     }
 
                 }
+            }
+               
 
                 //File.WriteAllLines(fileLocation, lines);
-                //using (FileStream fs = new FileStream(fileLocation, FileMode.OpenOrCreate, FileAccess.Write))
-                //{
-                //    using (StreamWriter sw = new StreamWriter(fs))
-                //    {
-                //        foreach (var item in lines)
-                //        {
-                //            sw.WriteLine(item);
-                //        }
-                //    }
-                //}
-            }
+                using (FileStream fs = new FileStream(fileLocation, FileMode.OpenOrCreate, FileAccess.Write))
+                {
+                    using (StreamWriter sw = new StreamWriter(fs))
+                    {
+                        foreach (var item in lines)
+                        {
+                            sw.WriteLine(item);
+                        }
+                    }
+                }
+ 
         }
 
 
@@ -136,9 +141,10 @@ namespace TeacherRecordsSystem
             
             while (true)
             {
-                Console.WriteLine("(1) to enter new data \n" +
+                Console.WriteLine("## Teacher Records System ## \n\n" +
+               "(1) to enter new data \n" +
                "(2) to update existing data \n" +
-               "(3) to display teachers record \n" +
+               "(3) to display teacher records \n" +
                "(4) to exit \n");
                 int choice = Convert.ToInt32(Console.ReadLine());
                 switch (choice)
