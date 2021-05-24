@@ -4,3 +4,8 @@ ID 	 Name 	 Class 	 Section
 2 	 sami 	 2 	 3
 3 	 Nora 	 9 	 2
 4 	 e 	 2 	 1
+7 	 d 	 3 	 3
+9 	 f 	 3 	 3
+9 	 f 	 3 	 3
+10 	 fe 	 2 	 2
+7 	 d 	 2 	 2
